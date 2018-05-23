@@ -121,4 +121,4 @@ history = model.fit(partial_x,
 # History is the object that is generated
 history_dict = history.history
 
-# print(history.history['acc'])
+# print(history.history['acc']z)
