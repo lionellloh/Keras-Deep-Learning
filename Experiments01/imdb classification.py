@@ -119,6 +119,93 @@ history = model.fit(partial_x,
                     validation_data=(x_val, y_val))
 
 # History is the object that is generated
+
+
+
+# Visualising training results below
+
+# First we try to understand the variation of loss with epochs
+
+import matplotlib.pyplot as plt
+
 history_dict = history.history
 
-# print(history.history['acc']z)
+loss_values = history_dict['loss']
+
+val_loss_values = history_dict['val_loss']
+
+epochs = range(1, len(loss_values) + 1)
+
+# bo is for blue dot
+plt.plot(epochs, loss_values, 'bo', label = 'Training loss')
+# b is for blue line
+plt.plot(epochs, val_loss_values, 'b', label = 'Validation loss')
+plt.title("Training and Validation loss")
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.legend()
+
+plt.show()
+
+
+# Plotting for t
+
+acc_values = history_dict['acc']
+val_acc_values = history_dict['val_acc']
+
+plt.plot(epochs, acc_values, 'bo', label = "Training Acc")
+plt.plot(epochs, val_acc_values, 'b', label = "Validation Acc")
+
+plt.title("Training and validation accuracy")
+
+plt.xlabel('Epochs')
+plt.ylabel("Acc")
+plt.legend()
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,7 +17,7 @@
       <file leaf-file-name="mnistdigits.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mnistdigits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
+            <state relative-caret-position="1045">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/imdb classification.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
-              <caret line="101" column="82" selection-start-line="101" selection-start-column="82" selection-end-line="101" selection-end-column="82" />
+              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
             </state>
           </provider>
         </entry>
@@ -63,14 +63,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>acc</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mnistdigits.py" />
         <option value="$PROJECT_DIR$/broadcasting.py" />
         <option value="$PROJECT_DIR$/max_pooling (uda).py" />
-        <option value="$PROJECT_DIR$/imdb classification.py" />
         <option value="$PROJECT_DIR$/Bag of Words.ipynb" />
+        <option value="$PROJECT_DIR$/imdb classification.py" />
       </list>
     </option>
   </component>
@@ -85,7 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.Experiments01">
+  <component name="RunManager" selected="Python.imdb classification">
     <configuration name="Experiments01" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Experiments01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,11 +210,11 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
+      <item itemvalue="Jupyter Notebook.Experiments01" />
       <item itemvalue="Python.mnistdigits" />
       <item itemvalue="Python.broadcasting" />
       <item itemvalue="Python.imdb classification" />
       <item itemvalue="Python.max_pooling (uda)" />
-      <item itemvalue="Jupyter Notebook.Experiments01" />
     </list>
     <recent_temporary>
       <list>
@@ -235,17 +240,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1449" y="-220" width="1237" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4996041" visible="true" weight="0.14227971" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.14227971" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25732383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25732383" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39981702" />
-      <window_info id="Favorites" order="2" sideWeight="0.5003959" side_tool="true" visible="true" weight="0.14227971" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.14227971" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -259,6 +265,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mnistdigits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/broadcasting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_pooling (uda).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#49#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="82" selection-start-line="101" selection-start-column="82" selection-end-line="101" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mnistdigits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -275,7 +312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnistdigits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
+        <state relative-caret-position="1045">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
@@ -284,9 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="e#22#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -300,17 +334,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bag of Words.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Bag of Words.ipynb" />
     <entry file="file://$PROJECT_DIR$/imdb classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
-          <caret line="101" column="82" selection-start-line="101" selection-start-column="82" selection-end-line="101" selection-end-column="82" />
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
         </state>
       </provider>
     </entry>
